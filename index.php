@@ -55,7 +55,7 @@
     <!--git discription-->
     <div>
         <p>
-            We learned about some git syntax:
+            1. We learned about some git syntax:
             <ul>
                 <li>
                     <code>git add .</code>
@@ -71,7 +71,7 @@
 
         <!--php discription-->
         <p>
-            We can use php in html files:
+            2. We can use php in html files:
             <ul>
                 <li>First, we should change the suffix of the file to the php</li>
                 <li>Second, use <code><?=$php_code?></code> syntax to write some php code</li>
@@ -90,6 +90,25 @@
                 to print with fewer code.
             </b>
         </p>
+    </div>
+
+    <!--some extra point-->
+    <div>
+        <p>
+            3. If we want to run the project in php we can use the code as below:
+
+            <br>
+            <ul>
+                <li>
+                    <code>
+                        php -S ip-address:port
+                    </code>
+                </li>
+            </ul>
+
+            4. If we want to create randomly some sentence or paragraph we can use <strong><a href="https://loremipsum.io/">Lorem ipsum</a><strong>
+        </p>
+
     </div>
     
 </body>
