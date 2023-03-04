@@ -11,3 +11,16 @@ of tips that we've learned in the class.
 - php echo and print
 - php varaibles
 - using html and and php together
+- using Lorem ipsum
+
+## Session2 branch
+Session2 branch is a branch for the second session of web programming class. It contains a list 
+of points that we've learned in the class.
+
+- array in PHP
+- if statement
+- var_dump and die functions is PHP 
+- foreach in PHP
+- defination of function
+- nested function *
+- arrays function in PHP *
