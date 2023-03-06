@@ -98,6 +98,29 @@
         }
     }
 
+    // Simple Example Of Nested Function (seonf)
+    function seonf() {
+           $output = <<<'TEXT'
+            We can assign a funtion's result to the variable like the below example:
+            <br><br>
+            <code>
+                <strong>$variable_name</strong> = <strong>function</strong>() {<br>
+                
+                    // body<br>
+                    ...<br>
+                }
+                <br>
+
+                <strong>function</strong> function_name(<strong>$variable_name</strong>) {<br>
+
+                    // body<br>
+                    ...<br>
+                }
+            </code> 
+            TEXT;
+
+            return $output;
+    }
     ?>
 
     <!--header-->
@@ -125,8 +148,13 @@
     <!--second session points-->
     <div>
         <ul>
-            <li>we can use var_dump function to print our arrays.</li>
-            <li>php has a function named die to kill the program in specific situation.</li>
+            <li>We can use <code>var_dump()</code> function to print our arrays.</li>
+            <li>php has a function named <code>die()</code> to kill the program in specific situation.</li>
+        </ul>
+        <ul>
+            <li><?= seonf()?></li>
+            <br>
+            <li>We were learned about <strong><a href="https://www.php.net/manual/en/ref.array.php">Array Functions</a></strong>. You can visit this site for more information.</li>
         </ul>
     </div>
 
