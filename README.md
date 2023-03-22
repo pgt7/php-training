@@ -26,7 +26,7 @@ of points that we've learned in the class.
 - arrays function in PHP *
 
 ## Session3 branch
-Session2 branch is a branch for the third and forth sessions of web programming class. It contains a list 
+Session3 branch is a branch for the third and forth sessions of web programming class. It contains a list 
 of points that we've learned in the class.
 
 - require syntax
