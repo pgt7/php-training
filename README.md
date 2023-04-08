@@ -32,3 +32,13 @@ of points that we've learned in the class.
 - require syntax
 - connect to database (postgres)
 - occured a simple select query
+
+## Session4 branch
+Session4 branch is a branch for the fifth session of web programming class.
+It contains a list of points
+that we've learned in the class.
+
+- include keyword in php
+- PDO class
+- class in php
+- OOP (object oriented programming)
