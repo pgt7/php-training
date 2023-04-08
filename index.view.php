@@ -18,10 +18,6 @@
     }
 </style>
 
-<?php 
-    $pdo = connectToDB();
-?>
-
 <body>
 
     <!--header-->
