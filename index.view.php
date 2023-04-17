@@ -54,8 +54,9 @@
                 <th>country</th>
             </theader>
             <tbody>
+                <!-- 
                 <?php 
-                    foreach(printAllPersons($pdo) as $person):
+                    foreach($dto -> loadAll() as $person):
                 ?>
                 <tr>
                     <?php      
@@ -68,7 +69,8 @@
                 </tr>
                 <?php 
                     endforeach;
-                ?>
+                ?> 
+                -->
             </tbody>
         </table>
     </div>

@@ -1,14 +1,15 @@
 
 <?php
 
-include 'db_connection.php';
+include 'PersonDto.php';
+include 'Person.php';
 
 // general description
-$title = 'Session 3 - PHP and Postgres';
-$date = 'date: 3/22/2023 - Wednesday';
+$title = 'Session 5 - Better Structure';
+$date = 'date: 4/17/2023 - Monday';
 $owner = 'Pouria Ghafarbeigi';
 
-// connect to db
-$pdo = connectToDb();
+// create an instance of dto
+$dto = new PersonDto();
 
 require('index.view.php');
