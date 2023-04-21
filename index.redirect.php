@@ -17,4 +17,9 @@ $id = null;
 // create a default limit var
 $limit = null;
 
+// check limit variable 
+if ($_GET['limit'] != null) {
+    $limit = $_GET['limit'];
+}
+
 require('index.view.php');

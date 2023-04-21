@@ -9,6 +9,7 @@
     <title>Web Programming Class</title>
 </head>
 
+
 <body>
 
     <!--header-->
@@ -59,7 +60,7 @@
             </theader>
             <tbody>
             <?php 
-                    foreach($dto -> loadAllPersons($limit) as $person):
+                    foreach($dto -> loadPersonById($id) as $person):
                 ?>
                 <tr>
                     <?php      

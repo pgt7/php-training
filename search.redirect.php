@@ -11,10 +11,14 @@ $owner = 'Pouria Ghafarbeigi';
 // create an instance of dto
 $dto = new PersonDto();
 
-// create a defualt id var
+// get id
 $id = null;
 
-// create a default limit var
+// create a default limit
 $limit = null;
 
-require('index.view.php');
+if ($_GET['id'] != null) {
+    $id = $_GET['id'];
+}
+
+require('search.view.php');
