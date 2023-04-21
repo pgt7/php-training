@@ -1,8 +1,5 @@
 <?php
 
-include 'functions.php';
-include 'Person.php';
-
 class Database {
 
     public $connection;
@@ -61,7 +58,17 @@ class Database {
         // create a statement
         $statement = $this -> connection -> prepare($string);
 
-        $statement->execute();
+        $statement -> execute();
+
+        return $statement;
+    }
+
+    public function execute_query_with_parameter($string, $params = []) {
+        
+        // create a statement
+        $statement = $this -> connection -> prepare($string);
+
+        $statement -> execute($params);
 
         return $statement;
     }

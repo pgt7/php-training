@@ -42,3 +42,13 @@ that we've learned in the class.
 - PDO class
 - class in php
 - OOP (object oriented programming)
+
+## Session5 branch
+Session5 branch is a branch for the sixth session of web programming class.
+It contains a list of points
+that we've learned in the class.
+
+- re-structed Session4 branch program
+- constructor in PHP
+- configuration in php
+- native SQL command
