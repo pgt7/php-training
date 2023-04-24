@@ -9,7 +9,6 @@
     <title>Web Programming Class</title>
 </head>
 
-
 <body>
 
     <!--header-->
