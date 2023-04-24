@@ -60,7 +60,7 @@
             </theader>
             <tbody>
             <?php 
-                    foreach($dto -> loadPersonById($id) as $person):
+                    foreach($dao -> loadPersonById($id) as $person):
                 ?>
                 <tr>
                     <?php      
