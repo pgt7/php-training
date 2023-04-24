@@ -60,7 +60,7 @@
             </theader>
             <tbody>
             <?php 
-                    foreach($dto -> loadAllPersons($limit) as $person):
+                    foreach($dao -> loadAllPersons($limit) as $person):
                 ?>
                 <tr>
                     <?php      

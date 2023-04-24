@@ -3,7 +3,7 @@
 include 'Database.php';
 include 'Person.php';
 
-class PersonDto {
+class PersonDao {
 
     public $db;
 
