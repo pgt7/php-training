@@ -17,4 +17,5 @@ function routeToController($uri, $routes) {
     $controller = array_key_exists($uri, $routes) ? $routes[$uri] : null;
     return $controller?? abort();
 }
+
 ?>
