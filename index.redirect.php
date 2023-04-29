@@ -1,7 +1,7 @@
 
 <?php
 
-include 'PersonDao.php';
+include './dao/PersonDao.php';
 
 // general description
 $title = 'Session 5 - Better Structure';
@@ -22,4 +22,4 @@ if ($_GET['limit'] != null) {
     $limit = $_GET['limit'];
 }
 
-require('index.view.php');
+require('./views/index.view.php');

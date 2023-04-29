@@ -1,7 +1,7 @@
 
 <?php
 
-include 'PersonDao.php';
+include './dao/PersonDao.php';
 
 // general description
 $title = 'Session 5 - Better Structure';
@@ -17,4 +17,4 @@ $id = null;
 // create a default limit var
 $limit = null;
 
-require('index.view.php');
+require('route.php');

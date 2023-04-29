@@ -1,6 +1,6 @@
 <?php
 
-include 'Database.php';
+include './dao/general/Database.php';
 include 'Person.php';
 
 class PersonDao {
@@ -11,7 +11,7 @@ class PersonDao {
     public function __construct() {
 
         // database config
-        $config = require('Config.php');
+        $config = require('./dao/general/Config.php');
 
         // connect to database
         $this -> db = new Database($config);

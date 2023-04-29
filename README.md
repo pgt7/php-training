@@ -52,3 +52,12 @@ that we've learned in the class.
 - constructor in PHP
 - configuration in php
 - native SQL command
+
+
+## Session6 branch
+Session6 branch is a branch for the seventh session of web programming class.
+It contains a list of points and tips 
+that we've learned in the class.
+
+- manage **URI**
+- **MVC** model

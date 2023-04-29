@@ -1,7 +1,7 @@
 
 <?php
 
-include 'PersonDao.php';
+include './dao/PersonDao.php';
 
 // general description
 $title = 'Session 5 - Better Structure';
@@ -21,4 +21,4 @@ if ($_GET['id'] != null) {
     $id = $_GET['id'];
 }
 
-require('search.view.php');
+require('./views/search.view.php');

@@ -4,33 +4,6 @@ class Database {
 
     public $connection;
 
-    // public function __construct($host, $port, $db, $user, $password) {
-    //     try {
-
-    //         // format dsn
-    //         $format = "pgsql:host=%s;port=%s;dbname=%s;";
-    //         $dsn = sprintf($format, $host, $port, $db);
-
-    //         $pdo = new PDO($dsn, $user, $password, [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);
-            
-    //         //if ($pdo) {
-    //         //    echo "Connected to the $db database successfully!";
-    //         //}
-    
-    //         $this -> connection = $pdo;
-    
-    //     } catch (PDOException $e) {
-    
-    //         die($e->getMessage());
-    
-    //     } finally {
-    
-    //         if ($pdo) {
-    //             $this -> connection = null;
-    //         }
-    //     }
-    // }
-
     public function __construct($param) {
         try {
 
