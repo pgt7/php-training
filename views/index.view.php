@@ -37,7 +37,7 @@
     </br>
     </br>
 
-    <div>
+    <div class='persons-table'>
         <table class='table table-bordered'>
             <theader>
                 <th>row</th>
