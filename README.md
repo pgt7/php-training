@@ -61,3 +61,13 @@ that we've learned in the class.
 
 - manage **URI**
 - **MVC** model
+
+## Session7 branch
+Session7 branch is a branch for the eighth session of web programming class.
+We've learned how to manage the view layer and seprate all contents of that. 
+
+- footer
+- header
+- navigation
+- banner
+- body
