@@ -40,6 +40,7 @@ class PersonDao {
 
         $persons = array();
         foreach ($result -> fetchAll(PDO::FETCH_OBJ) as $object) {
+
             $person = new Person($object);
 
             array_push($persons, $person);

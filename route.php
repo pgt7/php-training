@@ -10,7 +10,8 @@ $routes = [
     '/' => './controller/HomeController.php',
     '' => './controller/HomeController.php',
     '/about/' => './controller/AboutController.php',
-    '/about' => './controller/AboutController.php'
+    '/about' => './controller/AboutController.php',
+    '/user.php' => './controller/UsersController.php'
 ];
 
 // find the controller

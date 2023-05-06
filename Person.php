@@ -9,6 +9,7 @@ class Person {
     public $birthdate;
     public $email;
     public $country_of_birth;
+    public $user_id;
 
     public function __construct($obj) {
         
@@ -21,6 +22,7 @@ class Person {
             $this -> birthdate = $obj -> date_of_birth;
             $this -> email = $obj -> email;
             $this -> country_of_birth = $obj -> country_of_birth;
+            $this -> user_id = $obj -> user_fk;
         }
     }
 }

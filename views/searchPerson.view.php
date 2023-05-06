@@ -37,7 +37,7 @@
     </br>
     </br>
 
-    <div class='persons-table'>
+    <div>
         <table class='table table-bordered'>
             <theader>
                 <th>row</th>
@@ -47,11 +47,10 @@
                 <th>birthdate</th>
                 <th>email</th>
                 <th>country</th>
-                <th>user's number</th>
             </theader>
             <tbody>
             <?php 
-                    foreach($dao -> loadAllPersons($limit) as $person):
+                    foreach($dao -> loadPersonById($id) as $person):
                 ?>
                 <tr>
                     <?php      

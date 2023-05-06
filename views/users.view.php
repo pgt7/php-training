@@ -24,12 +24,12 @@
     <br>
     <br>
 
-    <form action="searchPerson.redirect.php" method="get">
+    <form action="searchUser.redirect.php" method="get">
     ID:  <input type="text" name="id" />
     <input type="submit" name="submit" value="Search" />
     </form>
 
-    <form action="index.redirect.php" method="get">
+    <form action="user.redirect.php" method="get">
     LIMIT:  <input type="text" name="limit" />
     <input type="submit" name="submit" value="filter" />
     </form>
@@ -37,25 +37,20 @@
     </br>
     </br>
 
-    <div class='persons-table'>
+    <div class='user-table'>
         <table class='table table-bordered'>
             <theader>
-                <th>row</th>
-                <th>firstname</th>
-                <th>lastname</th>
-                <th>gender</th>
-                <th>birthdate</th>
+                <th>number</th>
+                <th>username</th>
                 <th>email</th>
-                <th>country</th>
-                <th>user's number</th>
             </theader>
             <tbody>
             <?php 
-                    foreach($dao -> loadAllPersons($limit) as $person):
+                    foreach($dao -> loadAllUsers($limit) as $user):
                 ?>
                 <tr>
                     <?php      
-                        foreach($person as $key=>$value):
+                        foreach($user as $key=>$value):
                     ?>
                         <td><?=$value?></td>
                     <?php 
