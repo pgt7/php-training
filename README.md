@@ -71,3 +71,7 @@ We've learned how to manage the view layer and seprate all contents of that.
 - navigation
 - banner
 - body
+
+## Session8 branch
+Session8 branch is a branch for the ninth session of web programming class.
+We've learned about modeling and their relationships.
