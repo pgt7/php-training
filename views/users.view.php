@@ -24,12 +24,12 @@
     <br>
     <br>
 
-    <form action="searchUser.redirect.php" method="get">
+    <form action="/user" method="get">
     ID:  <input type="text" name="id" />
     <input type="submit" name="submit" value="Search" />
     </form>
 
-    <form action="user.redirect.php" method="get">
+    <form action="/user" method="get">
     LIMIT:  <input type="text" name="limit" />
     <input type="submit" name="submit" value="filter" />
     </form>
@@ -46,7 +46,7 @@
             </theader>
             <tbody>
             <?php 
-                    foreach($dao -> loadAllUsers($limit) as $user):
+                    foreach($dao -> loadUserById($id, $limit) as $user):
                 ?>
                 <tr>
                     <?php      

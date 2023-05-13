@@ -3,7 +3,7 @@
 include 'functions.php';
 
 // get the currnet uri
-$uri = $_SERVER['REQUEST_URI'];
+$uri = parse_url($_SERVER['REQUEST_URI'])['path'];
 
 // define all controllers and views
 $routes = [
@@ -11,7 +11,8 @@ $routes = [
     '' => './controller/HomeController.php',
     '/about/' => './controller/AboutController.php',
     '/about' => './controller/AboutController.php',
-    '/user.php' => './controller/UsersController.php'
+    '/user' => './controller/UsersController.php',
+    '/user/' => './controller/UsersController.php'
 ];
 
 // find the controller

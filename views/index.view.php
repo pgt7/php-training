@@ -24,12 +24,12 @@
     <br>
     <br>
 
-    <form action="searchPerson.redirect.php" method="get">
+    <form action="/" method="get">
     ID:  <input type="text" name="id" />
     <input type="submit" name="submit" value="Search" />
     </form>
 
-    <form action="index.redirect.php" method="get">
+    <form action="/" method="get">
     LIMIT:  <input type="text" name="limit" />
     <input type="submit" name="submit" value="filter" />
     </form>
@@ -51,7 +51,7 @@
             </theader>
             <tbody>
             <?php 
-                    foreach($dao -> loadAllPersons($limit) as $person):
+                    foreach($dao -> loadPersonById($id, $limit) as $person):
                 ?>
                 <tr>
                     <?php      

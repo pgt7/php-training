@@ -42,6 +42,15 @@
         </div>
     </li>
 
+</br>
+
+    <li>
+        <div class="basic-head">
+            <h2>parse_url</h2>
+            <p>We can split the path and the query with <strong>parse_url</strong> function.</p>
+        </div>
+    </li>
+
 </ul>
 
 <?php require('./views/partials/footer.html'); ?>
