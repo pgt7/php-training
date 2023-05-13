@@ -47,7 +47,7 @@
                 <th>birthdate</th>
                 <th>email</th>
                 <th>country</th>
-                <th>user's number</th>
+                <th>username</th>
             </theader>
             <tbody>
             <?php 
@@ -57,7 +57,14 @@
                     <?php      
                         foreach($person as $key=>$value):
                     ?>
-                        <td><?=$value?></td>
+                        <td><?php
+                        if($key == 'user') {
+                            echo($value -> username);
+                        }
+                        else {
+                            echo($value);
+                        }?>
+                        </td>
                     <?php 
                         endforeach;
                     ?>

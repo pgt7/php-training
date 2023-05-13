@@ -7,7 +7,7 @@ class Users {
     public $email;
     public $password;
 
-    public function __construct($obj) {
+    public function __construct($obj = null) {
 
         if ($obj != null) {
             

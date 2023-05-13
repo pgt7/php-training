@@ -5,7 +5,7 @@ include './dao/UsersDao.php';
 
 // general description
 $title = 'Session 9 - Cleaning the code';
-$date = 'date: 5/6/2023 - Saturday';
+$date = 'date: 5/13/2023 - Saturday';
 $owner = 'Pouria Ghafarbeigi';
 
 // create an instance of dto

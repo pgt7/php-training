@@ -1,5 +1,7 @@
 <?php
 
+include 'Users.php';
+
 class Person {
 
     public $id;
@@ -9,7 +11,7 @@ class Person {
     public $birthdate;
     public $email;
     public $country_of_birth;
-    public $user_id;
+    public $user;
 
     public function __construct($obj) {
         
@@ -22,7 +24,11 @@ class Person {
             $this -> birthdate = $obj -> date_of_birth;
             $this -> email = $obj -> email;
             $this -> country_of_birth = $obj -> country_of_birth;
-            $this -> user_id = $obj -> user_fk;
+
+            $user = new Users();
+            $user -> username = $obj -> username;
+
+            $this -> user = $user;
         }
     }
 }

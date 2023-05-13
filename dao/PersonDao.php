@@ -19,7 +19,7 @@ class PersonDao {
 
     public function loadAllPersons($limit = null) {
 
-        $query = "SELECT * FROM person";
+        $query = "SELECT p.* , u.username FROM person p JOIN users u ON (p.user_fk = u.id)";
 
         //check limit
         if ($limit != null) {
@@ -52,11 +52,11 @@ class PersonDao {
 
     public function loadPersonById($id = null, $limit = null) {
 
-        $query = "SELECT * FROM person";
+        $query = "SELECT p.* , u.username FROM person p JOIN users u ON (p.user_fk = u.id)";
 
         //check limit
         if ($id != null) {
-            $query = $query . " WHERE id = :id ;";
+            $query = $query . " WHERE p.id = :id ;";
 
             // execute
             $result = $this -> db -> execute_query_with_parameter($query, ['id' => $id]);
