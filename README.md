@@ -77,5 +77,5 @@ Session8 branch is a branch for the ninth session of web programming class.
 We've learned about modeling and their relationships.
 
 ## Session9 branch
-Session8 branch is a branch for the ninth session of web programming class.
+Session9 branch is a branch for the ninth session of web programming class.
 We've learned about url management and ....
