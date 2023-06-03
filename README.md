@@ -79,3 +79,9 @@ We've learned about modeling and their relationships.
 ## Session9 branch
 Session9 branch is a branch for the ninth session of web programming class.
 We've learned about url management and ....
+
+## Session10 + Final Project branch
+Session10 branch is a branch for the tenth session of web programming class.
+We've learned about Laravel Framework and how it works?
+
+>**Final Project** is about a Laravel web application that compare 2 product.
