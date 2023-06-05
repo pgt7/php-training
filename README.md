@@ -84,4 +84,4 @@ We've learned about url management and ....
 Session10 branch is a branch for the tenth session of web programming class.
 We've learned about Laravel Framework and how it works?
 
->**Final Project** is about a Laravel web application that compare 2 product.
+>**Final Project** is about a Laravel web application that compares 2 products.
